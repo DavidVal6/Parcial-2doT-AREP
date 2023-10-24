@@ -21,11 +21,7 @@ public class CollatzMader {
 
         number = number%2==0 ? number/2 : 3* number + 1;
         if (number > 1) {
-            if (isOdd(number)) {
-                collatzResult.add(number / 2);
-            } else {
-                collatzResult.add(3 * number + 1);
-            }
+            collatzResult.add(number);
             makeCollatz();
         }else{
             collatzResult.add(number);
