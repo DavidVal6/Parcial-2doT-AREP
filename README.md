@@ -35,6 +35,20 @@ Este proyecto funciona con un framework llamado spark el cual aprovechalas carac
 Una vez hace todo esto se devolvera a el apiREST y de aqui se construira un json el cual se haga la consulta con el link explicado anteriormente 
 
 
+
+## Ejecutar en EC2:
+En EC2 solo es necesario tener docker instalado previamente, adicionalmente se requiere tener el puerto seleccionado abierto en este caso se requiere el 34000, una vez hecho esto se hace lo siguiente:
+
+```bash
+sudo docker run -d -p 34000:6000 --name <nombrecualquiera> davidval6/segundoparcial:fixed
+docker ps
+ ```
+una vez este funcionando se puede usar el dns ejemplo:
+
+```bash
+ec2.xx.xx.xx:34000/collatzsequence?value=13
+```
+
 ## Funcionamiento:
 
 ### Pantallazos:
