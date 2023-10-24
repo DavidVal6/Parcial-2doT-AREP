@@ -20,7 +20,7 @@ Una vez ya se halla hecho el clone al repositorio de debe de entrar al directori
   y si Se quiere hacer desde un docker se puede con lo siguiente:
   ```bash
 docker pull davidval6/segundoparcial:latest
-docker run -d -p 34000:6000 --name <nombrecualquiera> davidval6/segundoparcial:latest     
+docker run -d -p 34000:6000 --name <nombrecualquiera> davidval6/segundoparcial:fixed     
 ```
 una vez arranque puede ir a su navegador y con
 ```bash
@@ -36,4 +36,12 @@ Una vez hace todo esto se devolvera a el apiREST y de aqui se construira un json
 
 
 ## Funcionamiento:
+
+### Pantallazos:
+![image](https://github.com/DavidVal6/Parcial-2doT-AREP/assets/98176834/28a94b27-3b9e-4c35-b6ec-4b764a33d114)
+![image](https://github.com/DavidVal6/Parcial-2doT-AREP/assets/98176834/67df93d3-4a67-4d17-b3a5-a1f9ed0cf34c)
+![image](https://github.com/DavidVal6/Parcial-2doT-AREP/assets/98176834/2e22c0c8-7df5-4d7a-99a5-fc7a47ed565a)
+
+### Video
+https://pruebacorreoescuelaingeduco.sharepoint.com/:v:/s/yo818/Eehpqf2nNy5MpXAjxz4b3rMBqk1Bgrp6bYDi9KZ2WSDXvQ?e=wcakn4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
 
